@@ -50,8 +50,8 @@ function CallActions() {
           })
         }
       </div>
-      <a href='tel:620634146' className={styles.anchorTaxi}><img src='../../../taxiCall.png' alt="call to taxi" className={styles.taxi_icon}/></a>
-      <a href="https://wa.me/34620634146" className={styles.anchorWhatsapp}><img src='../../../whatsapp.png' alt='whatsapp' className={styles.whatsapp_icon}/></a>
+      <a href='tel:606357967' className={styles.anchorTaxi}><img src='../../../taxiCall.png' alt="call to taxi" className={styles.taxi_icon}/></a>
+      <a href="https://wa.me/34606357963" className={styles.anchorWhatsapp}><img src='../../../whatsapp.png' alt='whatsapp' className={styles.whatsapp_icon}/></a>
     </>
   )
 }
