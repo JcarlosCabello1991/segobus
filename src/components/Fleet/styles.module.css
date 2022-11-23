@@ -1,0 +1,28 @@
+.description__fleet{
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.fleet_images{
+  width: 100%;
+}
+
+.img_bus{
+  border-radius: 10px;
+  width: 100%;
+}
+
+.title_bus{
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
+
+.list{
+  padding-left: 1.1rem;
+}

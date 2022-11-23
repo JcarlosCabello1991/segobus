@@ -1,0 +1,84 @@
+.anchorWhatsapp{
+  margin-right: 2.5rem;
+  text-align: end;
+  padding-right: 1rem;
+  z-index: 4000;
+}
+.whatsapp_icon{
+  width: 3rem;
+  position: fixed;
+  bottom: 0.5rem;  
+}
+
+.anchorTaxi{
+  margin-right: 3rem;
+  text-align: end;
+  padding-right: 1rem;
+  z-index: 4000;
+}
+.taxi_icon{
+  width: 4rem;
+  position: fixed;
+  bottom: 3.5rem;  
+}
+
+.spain__icon{
+  width: 3rem;
+  position: fixed;
+  bottom: 7.5rem; 
+}
+
+.anchorLanguage{
+  margin-right: 2.5rem;
+  text-align: end;
+  padding-right: 1rem;
+  z-index: 4000;
+}
+@keyframes growUp {
+  0%   {width: 0.1rem;}
+  100% {width: 3rem;}
+}
+
+@keyframes growDown {
+  0%   {width: 3rem;}
+  100% {width: 0.1rem;}
+}
+
+.anchorShowLanguages{
+  margin-right: 2.5rem;
+  text-align: end;
+  padding-right: 1rem;
+  z-index: 4000;
+}
+
+.langToSelect{
+  width: 3rem;
+  position: fixed;
+  bottom: 11rem; 
+  animation-name: growUp;
+  animation-duration: 0.5s;
+}
+
+.langToSelect_hide{
+  width: 0rem;
+  position: fixed;
+  bottom: 11rem; 
+  animation-name: growDown;
+  animation-duration: 0.5s;
+}
+
+.langToSelect1{
+  width: 3rem;
+  position: fixed;
+  bottom: 14.5rem; 
+  animation-name: growUp;
+  animation-duration: 0.5s;
+}
+
+.langToSelect1_hide{
+  width: 0rem;
+  position: fixed;
+  bottom: 14.5rem; 
+  animation-name: growDown;
+  animation-duration: 0.5s;
+}

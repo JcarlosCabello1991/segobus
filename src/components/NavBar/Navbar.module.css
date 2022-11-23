@@ -1,0 +1,51 @@
+.navBar__img{
+  width: 15rem;
+}
+
+.span__selector_navBar{
+  border: 1px solid red;
+  width: 99%;
+}
+
+.icon_language{
+  width: 2rem;
+}
+
+@media screen and (max-width: 750px) {
+  .box{
+    font-size: 0.75rem;
+  }
+
+  .navBar__img{
+    width: 12rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .box{
+    font-size: 0.75rem;
+  }
+
+  .navBar__img{
+    width: 9rem;
+  }
+}
+
+
+@media screen and (max-width:400px) {
+  .navBar__img{
+    padding-right: 0.5rem;
+  }
+}
+
+@media screen and (max-width:310px) {
+  .navBar__img{
+    width: 10rem;
+  }
+}
+
+@media screen and (max-width:226px) {
+  .navBar__img{
+    width: 7rem;
+  }
+}

@@ -1,0 +1,93 @@
+.form_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding-top: 10rem;
+  padding-left: 10%;
+  padding-right: 10%; 
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 10px;
+  gap: 2rem;
+  border: 1px solid #ccc;
+}
+
+.name_lastName{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.input{
+  width: 60%;
+  height: 1.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: rgb(228, 228, 228);
+}
+
+.input_pax{
+  text-align: start;
+  width: fit-content;
+}
+
+.input_description{
+  margin-top: 1rem;
+  width: 100%;
+  height: 10rem;
+  text-align: start;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: rgb(228, 228, 228);
+}
+
+.msg_alert{
+  background-color: rgb(129, 236, 129);
+  width: 100%;
+  border-radius: 5px;
+}
+
+.msg_alert_red{
+  background-color: rgb(236, 129, 129);
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media screen and (max-width:450px) {
+  .msg_alert{
+    width: 100%;
+    font-size: 0.75rem;
+  }
+
+  .msg_alert_red{
+    width: 100%;
+    font-size: 0.75rem;
+  }
+}
+
+.textArea{
+  text-align: start;
+  padding-right: 0.5rem;
+}
+
+.btn_send{
+  height: 2rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: rgb(250, 60, 60);
+  color: white;
+  font-size: 1rem;
+}

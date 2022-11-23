@@ -1,0 +1,45 @@
+.container__allDescription{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.description__container{
+  text-align: start;
+}
+
+.description__container_section{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.container_servicesDescription{
+  padding-top: 4rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: start;
+}
+
+.gridImages{
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fill,minmax(30%, 1fr)); 
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.image{
+  border-radius: 5px;
+  width: 100%;
+}
+
+.div_container_imageAndTitles{
+  text-align: center;
+}
+
+@media screen and (max-width: 270px) {
+  .div_container_imageAndTitles{
+    text-align: center;
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,34 @@
+.home__container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.home__container div{
+  margin-top: 0.1rem;
+  height: fit-content;
+}
+
+.anchorWhatsapp{
+  margin-right: 2.5rem;
+  text-align: end;
+  padding-right: 1rem;
+  z-index: 4000;
+}
+.whatsapp_icon{
+  width: 3rem;
+  position: fixed;
+  bottom: 0.5rem;  
+}
+
+.anchorTaxi{
+  margin-right: 3rem;
+  text-align: end;
+  padding-right: 1rem;
+  z-index: 4000;
+}
+.taxi_icon{
+  width: 4rem;
+  position: fixed;
+  bottom: 3.5rem;  
+}
