@@ -4,6 +4,7 @@
 
 .span__selector_navBar{
   border: 1px solid red;
+  background-color: red;
   width: 99%;
 }
 
