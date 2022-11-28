@@ -35,19 +35,19 @@ function Form() {
       <h2>{language === 'es' ? es.presupuesto_titulo : language === 'en' ? en.presupuesto_titulo : fr.presupuesto_titulo}</h2>
       <form className={styles.form} onSubmit={sendData}>
         <div className={styles.name_lastName}>
-          <input name='name' placeholder="name" type="text" className={styles.input} />
-          <input name='lastName' placeholder="Last name" type="text" className={styles.input} />
+          <input name='name' placeholder="name" type="text" className={styles.input} required/>
+          <input name='lastName' placeholder="Last name" type="text" className={styles.input} required/>
         </div>
         <div className={styles.name_lastName}>
-          <input name='email' placeholder="Email" type="text" className={styles.input} />
-          <input name='phone' placeholder="Phone" type="text" className={styles.input} />
+          <input name='email' placeholder="Email" type="text" className={styles.input} required/>
+          <input name='phone' placeholder="Phone" type="text" className={styles.input} required/>
         </div>
         <div className={styles.name_lastName}>
-          <input name='From' placeholder="From" type="date" className={styles.input} />
-          <input name='To' placeholder="To" type="date" className={styles.input} />
+          <input name='From' placeholder="From" type="date" className={styles.input} required/>
+          <input name='To' placeholder="To" type="date" className={styles.input} required/>
         </div>
         <div className={styles.input_pax}>
-          <input name='Pax' placeholder="Pax" type="text" className={styles.input} />
+          <input name='Pax' placeholder="Pax" type="text" className={styles.input} required/>
         </div>
         <div className={styles.textArea}>
           <label>{language === 'es' ? es.detalles : language === 'en' ? en.detalles : fr.detalles}</label>
@@ -58,6 +58,7 @@ function Form() {
           rows={4}
           variant="filled"
           fullWidth
+          required
         />
         </div>
         {
